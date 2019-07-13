@@ -15,18 +15,18 @@
   <body>
     <header>
       <div class="home">HOME</div>
-      <h1 class="rps">ROCK PAPER SCISSOR</h1>
+      <div class="rps"><b>ROCK PAPER SCISSOR</b></div>
       <div class="ham">ICON</div>
     </header>
 
     <section class="score-board">
       <div class="user">USER</div>
       <div class="comp">COMP</div>
-      <span class="user-score">0</span>:<span class="comp-score">0</span>
+      <span id="user-score">0</span>:<span id="comp-score">0</span>
     </section>
 
     <section class="gameSection">
-      <h1>Welcome to Rock Paper Scissor game!</h1>
+      <h1 id="messege">Welcome to Rock Paper Scissor game!</h1>
       <div class="choices" id="r">
         <img class="images" src="./Images/rock.png" alt="rock" />
       </div>
@@ -37,6 +37,10 @@
         <img class="images" src="./Images/scissors.png" alt="scissors" />
       </div>
     </section>
+
+    <div class="reset">
+      <button id="res">RESET</button>
+    </div>
     <script src="app.js"></script>
   </body>
 </html>
